@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 count = 0
-cap = cv.VideoCapture('C:\Projects\AI\Image_class_bjj\Armbar by Estevan Martinez [ET3XrD-R574].f299.mp4') 
+cap = cv.VideoCapture('Armbar_by_EstevanMartinez.mp4') 
 #  grabbing the video we want no sound since we are capturing body mechanics
 while cap.isOpened():
     ret, frame = cap.read()

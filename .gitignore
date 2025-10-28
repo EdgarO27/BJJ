@@ -11,6 +11,10 @@ __pycache__/
 .webmdir
 Armbar by Estevan Martinez_audio.webm
 Armbar_by_EstevanMartinez.mp4
+yolo11n-pose.pt
+runs
+Images
+
 # Distribution / packaging
 .Python
 build/
