@@ -12,7 +12,7 @@ while cap.isOpened():
         break
     gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
-    cv.imwrite("frame%d.jpg" % count, frame)
+    cv.imwrite("./Images/frame%d.jpg" % count, frame)
     count = count + 1
     cv.imshow('frame', gray)
     if cv.waitKey(1) == ord('q'):
