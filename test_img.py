@@ -21,16 +21,7 @@ while cap.isOpened():
 cap.release()
 cv.destroyAllWindows()
 
-# vid = cv2.VideoCapture("C:\\Users\\Admin\\PycharmProjects\\project_1\\openCV.mp4")
 
-# count, success = 0, True
-# while success:
-#     success, image = vid.read() # Read frame
-#     if success: 
-#         cv2.imwrite(f"frame{count}.jpg", image) # Save frame
-#         count += 1
-
-# vid.release()
 
 
 # yt-dlp -f "bv*[ext=.mp4]+ba[ext=.m4a]/b[ext=.mp4] / bv*+ba/b" "https://www.youtube.com/watch?v=ET3XrD-R574"
