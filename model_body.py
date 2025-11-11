@@ -1,9 +1,4 @@
-from ultralytics import YOLO
 
-# Load a model
-model = YOLO("yolo11n-pose.pt")  # load an official model
-# model = YOLO("path/to/best.pt")  # load a custom model
 
-# Predict with the model
-results = model.track("Armbar_by_EstevanMartinez.mp4", show = True, save=True)  # predict on an image
-
+# Help download mp4 videos to help get frames 
+# yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]" https://www.youtube.com/watch?v=s3Mm2PcqwpE
