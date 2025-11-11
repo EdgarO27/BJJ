@@ -4,6 +4,7 @@ import numpy as np
 image_path = "SingleLeg_Dataset/frame0.jpg"
 image1 = cv2.imread(image_path)
 
+# Had to be done due to errors being one pixel number off
 h, w = image1.shape[:2]
 new_w = (w // 32) * 32
 new_h = (h // 32) * 32
