@@ -21,7 +21,9 @@ SingleLeg
 Singleleg_text
 SingleLeg_Dataset
 .onnx
+DB_TD500_resnet50.onnx
 Videos
+SingleLeg_Text_process
 # Distribution / packaging
 .Python
 build/
