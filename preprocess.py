@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 count = 0
 image_count = 0
-cap = cv.VideoCapture('Single_Leg(Talgat_Ilyasov).mp4') 
+cap = cv.VideoCapture('Videos/Single_Leg(Talgat_Ilyasov.mp4') 
 #  grabbing the video we want no sound since we are capturing body mechanics
 while cap.isOpened():
     ret, frame = cap.read() # reading the image and bool to see if any frames left
@@ -42,7 +42,7 @@ while cap.isOpened():
         conf_thresh = 0.8 # default = .8
         nms_thresh = 0.4
         bin_thresh = 0.3
-        poly_thresh = 0.2 # default = .5 Lowering poly thresh helped grab all the text on the bottom left
+        poly_thresh = 0.3 # default = .5 Lowering poly thresh helped grab all the text on the bottom left
         mean = (122.67891434, 116.66876762, 104.00698793)
         #USING DB50 
         textDetectorDB50.setBinaryThreshold(bin_thresh).setPolygonThreshold(poly_thresh)
