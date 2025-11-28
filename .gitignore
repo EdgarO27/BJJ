@@ -25,6 +25,7 @@ DB_TD500_resnet50.onnx
 Dataset
 Videos
 SingleLeg_Text_process
+clips
 # Distribution / packaging
 .Python
 build/
