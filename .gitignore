@@ -15,8 +15,7 @@ runs
 Images
 Pose
 Dataset_Pose
-Single_leg.npy
-Not_Single_leg.npy
+
 Video_processing/Singleleg
 Video_processing
 Videos
