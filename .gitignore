@@ -9,20 +9,16 @@ __pycache__/
 # Media
 .mp4
 .webmdir
-Armbar by Estevan Martinez_audio.webm
-Armbar_by_EstevanMartinez.mp4
+Dataset_frames
 yolo11n-pose.pt
 runs
 Images
-Finishing_the_Single_Leg_All_Options_and_Counters(Talgat Ilyasov)_.webm
-FinishingtheSingleLegAllOptionsandCounters(Talgat Ilyasov).webm
-Single_Leg(Talgat_Ilyasov).mp4
-SingleLeg
-Singleleg_text
-SingleLeg_Dataset
-.onnx
-DB_TD500_resnet50.onnx
-Dataset
+Pose
+Dataset_Pose
+Single_leg.npy
+Not_Single_leg.npy
+Video_processing/Singleleg
+Video_processing
 Videos
 SingleLeg_Text_process
 clips
@@ -45,13 +41,15 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+Raw_Videos
+Raw_Dataset
 # PyInstaller
 #   Usually these files are written by a python script from a template
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
+Dataset
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
